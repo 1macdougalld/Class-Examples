@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GameOfLifeWorld
+comment0.text=\r\n\ GameOfLifeWorld\r\n\ \r\n\ This\ is\ a\ world\ in\ which\ the\ game\ of\ life\ takes\ place.\r\n\ \r\n\ @author\ C\ Brooks-Prenger\r\n\ @version\ v0.1.pre-video\r\n
+comment1.params=
+comment1.target=GameOfLifeWorld()
+comment1.text=\r\n\ Create\ a\ GameOfLifeWorld\ and\ then\ populate\ it\r\n
+comment2.params=
+comment2.target=void\ populateWorld()
+comment2.text=\r\n\ Populate\ the\ world\ with\ a\ set\ of\ "cells",\ one\ for\ each\ grid\ point.\r\n
+comment3.params=
+comment3.target=boolean\ getBiasedRandomBoolean()
+comment3.text=\r\n\ Get\ a\ "biased"\ random\ boolean\ value\r\n\ \r\n\ @return\ boolean\ value\ that\ biases\ more\ towards\ false\ than\ true.\r\n
+numComments=4

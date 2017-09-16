@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Cell
+comment0.text=\r\n\ Conway's\ Game\ of\ Life\ Cell\r\n\ Any\ live\ cell\ with\ fewer\ than\ two\ live\ neighbours\ dies,\ as\ if\ caused\ by\ underpopulation.\r\n\ Any\ live\ cell\ with\ two\ or\ three\ live\ neighbours\ lives\ on\ to\ the\ next\ generation.\r\n\ Any\ live\ cell\ with\ more\ than\ three\ live\ neighbours\ dies,\ as\ if\ by\ overpopulation.\r\n\ Any\ dead\ cell\ with\ exactly\ three\ live\ neighbours\ becomes\ a\ live\ cell,\ as\ if\ by\ reproduction.\r\n\ \r\n\ @author\ C\ Brooks-Prenger\ \r\n\ @version\ 0.1.pre-video\r\n
+comment1.params=
+comment1.target=Cell()
+comment1.text=\r\n\ Create\ a\ Cell\ with\ the\ default\ state\ (true)\r\n
+comment2.params=status
+comment2.target=Cell(boolean)
+comment2.text=\r\n\ Create\ a\ Cell\ with\ the\ given\ state\r\n\ \r\n\ @param\ boolean\ state\ to\ which\ the\ cell\ should\ initially\ be\ set\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Cell\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ showState()
+comment4.text=\r\n\ Hide\ or\ unhide\ based\ on\ if\ the\ cell\ is\ "living"\r\n
+comment5.params=
+comment5.target=boolean\ checkNextState()
+comment5.text=\r\n\ Check\ to\ see\ what\ the\ state\ would\ be\ in\ the\ next\ round.\r\n
+comment6.params=
+comment6.target=boolean\ getState()
+comment6.text=\r\n\ Returns\ the\ current\ state\ of\ the\ cell\r\n\ \r\n\ @return\ boolean\ the\ current\ state\ of\ the\ cell\r\n
+comment7.params=
+comment7.target=void\ flipState()
+comment7.text=\r\n\ Flips\ the\ current\ state\ value\r\n
+numComments=8
