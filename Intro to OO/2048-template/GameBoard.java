@@ -33,7 +33,7 @@ public class GameBoard extends World
         super(4, 4, 50); 
         
         //populate gameboard with x randomly placed objects
-        
+        //ADD CODE
     }
     
     
@@ -45,9 +45,10 @@ public class GameBoard extends World
     private boolean placeRandomBlock()
     {
         //Generate Random Location
+        //ADD CODE
         
         //Check to ensure random location is not yet taken, if the spot is free add it to the world
-        
+        //ADD CODE
         return false;
     }
     
@@ -90,22 +91,26 @@ public class GameBoard extends World
                 case "right":
                     //Tell the blocks to move right
                     //Start checking from the right most col, then move left                    
+                    //ADD CODE
                     break;
 
                 case "down":
                     //Tell the blocks to move down
                     //Start checking from the bottom, then move up
+                    //ADD CODE
                     break;
 
                 case "left":
                     //Tell the blocks to move left
                     //Start checking from the left, then move right
+                    //ADD CODE
                     break;
 
                 }
                 
 
             //Since placeRandomBlock is not gaurenteed to work the first time, repeat the process until it does
+            //May need to change this
             int count = 0;
             while (count < 1) {
                 if (placeRandomBlock()) {

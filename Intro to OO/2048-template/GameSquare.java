@@ -89,7 +89,7 @@ public class GameSquare extends Actor
      */
     public boolean merge(int valueIn)
     {
-        //Insert Code
+        //ADD CODE
     }
     
     /**
@@ -117,12 +117,13 @@ public class GameSquare extends Actor
         //ADD CODE        
         
         //Change x and y values to the "new" location based on direction
+        //ADD CODE
         
         //Test for outside border
-           
+        //ADD CODE   
         
         //Check to see if there is a block in the way
-        
+        //ADD CODE
         
         return 1;
     }
